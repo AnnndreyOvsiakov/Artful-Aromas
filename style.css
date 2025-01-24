@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #add8e6; 
+    color: #f0f0f0; 
+}
+header {
+    background: #222; 
+    color: #F0FFF0;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+#hero {
+    background: url('https://gpt-open.ru/uploads/generate/6793bbb733101doc858604055/6793bbffaf4c2doc923371021.png') no-repeat center center/cover;
+    height: 400px;
+    color: #F0FFF0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0.8; 
+    font-weight: 400;
+    opacity: 0.8;
+}
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #333;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+.menu-item {
+    display: flex;
+    margin-bottom: 20px;
+}
+.menu-item img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #222; 
+    color: white;
+}
+.reviews-section {
+   background-color: #333;
+   padding: 20px;
+   border-radius: 8px;
+   margin: 20px 0;
+   text-align: center;
+}
+
+.review {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.review:last-child {
+    border-bottom: none;
+}
+
+.review-text {
+   font-size: 16px;
+   color: white;
+}
+
+.review-author {
+   font-size: 14px;
+   color: white;
+   font-style: italic;
+} 
+
+.locations-section {
+background-color: #333;
+padding: 20px;
+border-radius: 8px;
+margin: 20px 0;
+text-align: center; 
+}
+
+.location {
+margin-bottom: 20px;
+}
+
+.location h3 {
+font-size: 24px;
+color: white;
+}
+
+.location p {
+font-size: 16px;
+color: white;
+}
+
+.location-image {
+width: 100%; 
+max-width: 400px; 
+border-radius: 8px; 
+margin-top: 10px;
+}
